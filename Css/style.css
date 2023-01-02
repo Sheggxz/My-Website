@@ -1,0 +1,105 @@
+/*For about us*/
+body{
+    height: 100%;
+    background-color: #485063;
+    /*text-align: center;*/
+  }
+  .about-container{
+    position: relative;
+    width:80%;
+    height: 100%;
+    margin: 10%;
+    padding: 10px 20px 10px 20px;
+    background-color: #11999E;
+  }
+  .story{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    
+  }
+.story:before, .story:after{
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+.story:before{
+    right: 0.5rem;
+    margin-left: -50%;
+    
+}
+.story:after{
+    left: 0.5rem;
+    margin-right: -50%;
+}
+
+  .about-p{
+    text-align: justify;
+    color: #fff;
+    font-size: 1.3rem;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .about{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+  }
+  .about-pf{
+    font-size: 0.75rem;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 15px;
+    display: inline-block;
+  }
+
+  /*._88{
+    display: inline-block;
+  }*/
+  /*For about us ****END PART*/
+
+  /*For contact form styling*/
+  ul{
+    text-align: justify;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  h3{
+    color: #fff;
+    font-size: 2rem;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  ._886{
+    font-size: 0.75rem;
+    color: #fff;
+    display: inline-block;
+  }
+  ._887{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    margin-right: 10px;
+  }
+  ._887 a{
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+  }
+  ._887 a:hover{
+    color: gold;
+  }
+  /*For contact ****END PART*/
